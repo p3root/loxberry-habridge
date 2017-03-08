@@ -1,2 +1,4 @@
 # loxberry-habridge
-loxberry-habridge plugin
+A LoxBerry Plugin
+-
+For Details visit http://www.loxwiki.eu
