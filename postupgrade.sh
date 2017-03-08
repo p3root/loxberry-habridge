@@ -42,5 +42,7 @@ echo "<INFO> Installation folder is: $ARGV4"
 ARGV5=$5 # Fifth argument is Base folder of LoxBerry
 echo "<INFO> Base folder is: $ARGV5"
 
+~/system/daemons/plugins/p3_lox_habridge
+
 # Exit with Status 0
 exit 0

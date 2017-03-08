@@ -26,7 +26,7 @@ $installfolder   = $cfg->param("BASE.INSTALLFOLDER");
 $lang            = $cfg->param("BASE.LANG");
 
 # Title
-$template_title = "Sample Plugin";
+$template_title = "Loxberry Habridge";
 
 # Create help page
 $helptext = "This is a sample short help text showed up in the right slider.";
@@ -51,8 +51,7 @@ print "<div class=\"ui-body ui-body-a ui-corner-all loxberry-logo\">\n";
 print "<div style=\"margin: 5%;\">\n";
 
 print "<center>";
-print "<br><br>This is the Sample Plugin. It just do nothing.<br><br><br>";
-print "Goodbye.";
+print "<b>Loxberry Habridge</b> Auf http://LOXBERRYIP:8080 findest du deine Habridge und kannst diese auch dort Konfigurieren! Port Konfig is TODO!</b></b></b>";
 print "</center>";
 
 print "</div>\n";
