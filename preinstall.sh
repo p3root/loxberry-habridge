@@ -39,5 +39,17 @@ echo "<INFO> Installation folder is: $ARGV4"
 ARGV5=$5 # Fifth argument is Base folder of LoxBerry
 echo "<INFO> Base folder is: $ARGV5"
 
+
+# Download
+echo "<INFO> Getting habridge Sources from https://github.com"
+mkdir -p /opt/loxberry/data/plugins/p3_lox_habridge/
+/usr/bin/wget --progress=dot:mega -t 10 -O /opt/loxberry/data/plugins/p3_lox_habridge/ha-bridge.jar https://github.com/bwssytems/ha-bridge/releases/download/v4.3.1/ha-bridge-4.3.1.jar
+if [ ! -f /opt/loxberry/data/plugins/p3_lox_habridge/ha-bridge.jar ]; then
+    echo "<FAIL> Something went wrong while trying to download habridge Sources."
+    exit 1
+else
+    echo "<OK> Habridge Sources downloaded successfully."
+fi
+
 # Exit with Status 0
 exit 0
